@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Penguin.Cms.Entities" Version="3.0.4-T9QC72V" />
+    <PackageReference Include="Penguin.Cms.Files" Version="2.0.3-T9QC72V" />
+    <PackageReference Include="Penguin.Cms.Security" Version="3.4.1-T9QC72V" />
+  </ItemGroup>
+
+</Project>
