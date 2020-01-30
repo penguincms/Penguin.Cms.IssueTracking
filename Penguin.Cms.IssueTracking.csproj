@@ -1,13 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageProjectUrl>https://github.com/penguincms/Penguin.Cms.IssueTracking</PackageProjectUrl>
+    <DocumentationFile>Penguin.Cms.IssueTracking.xml</DocumentationFile>
+    <Version>1.0.0</Version>
+    <AssemblyName>Penguin.Cms.IssueTracking</AssemblyName>
+    <RootNamespace>Penguin.Cms.IssueTracking</RootNamespace>
+    <Description>Not Available</Description>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Penguin.Cms.Entities" Version="3.0.4-T9QC72V" />
     <PackageReference Include="Penguin.Cms.Files" Version="2.0.3-T9QC72V" />
     <PackageReference Include="Penguin.Cms.Security" Version="3.4.1-T9QC72V" />
   </ItemGroup>
-
+  <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
 </Project>
