@@ -11,7 +11,7 @@
   <ItemGroup>
     <PackageReference Include="Penguin.Cms.Entities" Version="5.0.1-TA2OIRX" />
     <PackageReference Include="Penguin.Cms.Files" Version="5.0.1-TA2OIRX" />
-    <PackageReference Include="Penguin.Cms.Security" Version="5.0.1-TA2OIRX" />
+    <PackageReference Include="Penguin.Cms.Security" Version="5.0.1-TA2UZ02" />
   </ItemGroup>
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
 </Project>
