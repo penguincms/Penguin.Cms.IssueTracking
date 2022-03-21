@@ -1,4 +1,4 @@
-﻿using Penguin.Cms.Entities;
+using Penguin.Cms.Entities;
 using Penguin.Cms.Files;
 using Penguin.Cms.Security;
 using Penguin.Persistence.Abstractions.Attributes.Control;
@@ -23,8 +23,6 @@ namespace Penguin.Cms.IssueTracking
 
         [EagerLoad(1)]
         public TicketStatus Status { get; set; }
-
-
 
     }
 }
