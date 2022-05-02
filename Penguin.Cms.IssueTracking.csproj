@@ -9,9 +9,9 @@
     <Description>Not Available</Description>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Cms.Entities" Version="5.0.6-TAW5FE4" />
-    <PackageReference Include="Penguin.Cms.Files" Version="5.0.6-TAW5FE4" />
-    <PackageReference Include="Penguin.Cms.Security" Version="5.0.6-TAWC0Z3" />
+    <PackageReference Include="Penguin.Cms.Entities" Version="5.0.6-TAWVHS0" />
+    <PackageReference Include="Penguin.Cms.Files" Version="5.0.6-TAWVHS0" />
+    <PackageReference Include="Penguin.Cms.Security" Version="5.0.6-TAWVHS0" />
   </ItemGroup>
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
 </Project>
