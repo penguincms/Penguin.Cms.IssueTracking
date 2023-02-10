@@ -2,9 +2,7 @@
 using Penguin.Cms.Files;
 using Penguin.Persistence.Abstractions.Attributes.Control;
 using Penguin.Persistence.Abstractions.Attributes.Rendering;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Penguin.Cms.IssueTracking
 {
@@ -22,6 +20,7 @@ namespace Penguin.Cms.IssueTracking
         [EagerLoad(1)]
         [DontAllow(DisplayContexts.List)]
         public List<DatabaseFile> Attachments { get; set; }
+
         public override string ToString()
         {
             return Summary;
